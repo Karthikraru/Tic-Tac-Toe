@@ -251,7 +251,6 @@ public class Controller {
 
     public void restart(ActionEvent actionEvent) {
         reset();
-        resetPicks();
     }
 
     public String getLabel() {
