@@ -54,10 +54,6 @@ public class Controller {
         setLabel("Player 1");
         NumTurns = 0;
     }
-    public void resetPicks(){
-
-
-    }
 
     public String checkWin(String b1, String b2, String b3) {
         if ((b1 == "X") && (b2 == "X") && (b3 == "X")){
